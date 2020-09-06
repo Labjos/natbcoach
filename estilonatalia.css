@@ -1,0 +1,1055 @@
+body {
+	background-color:#ECF6CE;
+}
+
+header {
+
+	width: 960px;
+	height: 180px;
+	background-color: #ffffff;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'HelveticaNeue Condensed';
+	font-size: 20px;	
+	color: #000000;
+	line-height: 20px;
+	box-sizing: border-box;
+	padding: 5PX;
+	
+	}
+
+h1 {
+	font-family: 'HelveticaNeue Condensed';
+	font-size: 24px;
+	color: #000000;
+	line-height: 20px;
+	text-decoration: none;
+	box-sizing: border-box;
+	padding: 5PX;
+}
+
+h2 {
+	font-family: 'HelveticaNeue ThinCond';
+	font-size: 20px;
+	color: #000000;
+	line-height: 20px;
+	box-sizing: border-box;
+	text-align: left;
+	padding: 5PX;
+}
+
+h3 {
+	font-family: 'HelveticaNeue Condensed';
+	font-size: 24px;
+	color: #000000;
+	line-height: 20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	
+}
+
+#cabecera {
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logonatalia {
+	width: 300px;
+	height: 136px;
+	background-image: url(imagenesweb/NBCoach.png);
+	background-size: cover;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#menu_principal {
+	width: 570px;
+	height: 50px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#menu_principal ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#menu_principal ul li {
+	display: inline;
+}
+
+#menu_principal ul li a{
+	display: inline-block;
+	padding: 20px 10px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu_principal ul li a:hover {
+	color: #FF0000;
+}
+
+#menu_b {
+	width: 500px;
+	height: 50px;
+	float: left;
+	margin-left: 110px;
+	margin-top: 50px;
+}
+
+#menu_b ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#menu_b ul li {
+	display: inline;
+}
+
+#menu_b ul li a{
+	display: inline-block;
+	padding: 20px 10px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu_b ul li a:hover {
+	color: #FF0000;
+}
+
+#redes {
+	width:150px;
+	height: 70px;
+	float: right;
+	margin-bottom: 10px;
+	
+}
+#redes ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#redes ul li {
+	display: inline;
+}
+
+#redes ul li a{
+	display: inline-block;
+	padding: 10px 5px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+#instag {
+	width:1px;
+	height: 1px;
+	background-image: url(imagenesweb/instagram.png);
+	background-size: cover;
+	
+}
+
+#face {
+	width: 1px;
+	height: 1px;
+	background-image: url(imagenesweb/facebook.png);
+	background-size: cover;
+	
+}
+
+#natalia {
+	width: 960px;
+	height: 400px;
+	background-color: #FF0040;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#fotonat {
+	width: 400px;
+	height: 400px;
+	background-image: url(imagenesweb/natalia.jpg);
+	background-size: cover;
+	float: left;
+	margin-left: 20px;
+}
+
+#cv {
+	width: 240px;
+	height: 360px;
+	background-image:url(imagenesweb/fondo.jpg);
+	background-size: cover; 
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+#titulo_nat {
+	width: 240px
+	height: 50px;
+	text-underline-position: none;
+	list-style-type: none;
+	text-decoration: none;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#texto_nat {
+	width: 240px;
+	height:270px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px; 
+}
+
+#coach {
+	width: 250px;
+	height: 360px;
+	background-color:#848484;
+	float: right;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+#titulo_coach {
+	width: 240px
+	height: 50px;
+	list-style-type: none;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center; 
+}
+
+#texto_coach {
+	width: 240px;
+	height:270px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px; 
+}
+
+#slider {
+	width: 960px;
+	height: 600px;
+	background-color: #848484;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	overflow: hidden;
+		
+	}
+
+
+#slider ul {
+
+	float: left;
+	margin-top: 5px;
+	padding: 0px;
+	display: flex;
+	width: 500%;
+
+	animation: cambio 20s infinite;
+}
+
+#slider ul li{
+	list-style: none;
+}
+
+#slider img {
+	width: 960px;
+	height: auto;
+	background-size: cover;
+
+}
+
+@keyframes cambio {
+
+	0% {margin-left: 0;}
+	15% {margin-left: 0;}
+
+	20% {margin-left: -100%;}
+	35% {margin-left: -100%;}
+
+	40% {margin-left: -200%;}
+	55% {margin-left: -200%;}
+
+	60% {margin-left: -300%;}
+	75% {margin-left: -300%;}
+
+	80% {margin-left: -400%;}
+	100% {margin-left: -400%;}
+
+}
+
+#servicios {
+	width: 960px;
+	height: 400px;
+	background-color: #848484;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+}
+#servicio1 {
+
+	width: 300px;
+	height: 350px;
+	background-color: #D8D8D8;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#titulo_servicio1 {
+	width: 240px
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center; 
+}
+#texto_servicio1 {
+	width: 230px;
+	height:150px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px; 
+
+}
+
+#boton {
+	width: 230px;
+	height:30px;
+	background-color: #FE2E2E;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px; 
+	text-align: center;
+}
+#texto_boton {
+	width: 150px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	
+
+}
+#servicio2 {
+	width: 300px;
+	height: 350px;
+	background-color: #D8D8D8;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+#titulo_servicio2 {
+	width: 240px
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center; 
+}
+#texto_servicio2 {
+	width: 230px;
+	height:150px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px; 
+}
+
+#servicio3 {
+	width: 300px;
+	height: 350px;
+	background-color: #D8D8D8;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#titulo_servicio3 {
+	width: 240px
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center; 
+}
+#texto_servicio3 {
+	width: 230px;
+	height:150px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px; 
+}
+
+#reserva {
+	width: 450px;
+	height: 300px;
+	background-color: #216151;
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+#formulario {
+	width: 960px;
+	height: 500px;
+	background-color: #FE2E2E;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+#imagen_formulario {
+	width: 60px;
+	height: 60px;
+	background-image: url(imagenesweb/formulario.png);
+	background-size: cover;
+	float: left;
+	margin-left:50px;
+	margin-top:30px;
+}
+
+#texto_formulario {
+	width: 300px;
+	height: 40px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+#texto_aux {
+	width: 380px;
+	height: 200px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 10px;
+}
+
+#plantilla {
+	width: 500px;
+	height: 450px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 40px;
+}
+
+#iso {
+
+	width: 65px;
+	height: 80px;
+	background-image: url(imagenesweb/iso.png);
+	background-size: cover;
+	float: left;
+	margin-left: 0px;
+	margin-top: 80px;
+}
+
+input {
+	width: 400px;
+	height: 40px;
+	margin-top: 10px;
+	display: block;
+	float: right;
+	margin-right: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+
+textarea {
+	width: 400px;
+	height: 100px;
+	float: right;
+	margin-right: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-top: 10px;
+
+}
+
+input[type="submit"] {
+	display: block;
+	background-color: #A4A4A4; 
+}
+
+#respuesta {
+	width: 300px;
+	height: 60px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+
+}
+
+
+#agenda {
+	width: 960px;
+	height: 350px;
+	background-color: #656565;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+}
+#agen {
+	width: 300px;
+	height: 300px;
+	background-color: #D8D8D8;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#titulo_agen {
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-left: 100px;
+}
+
+#texto_agen {
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin-left: 20px;
+}
+
+#imagen_agen {
+	width: 250px;
+	height: 120px;
+	background-image: url(imagenesweb/agenda.jpg);
+	background-size: cover;
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+	
+}
+
+#prensa {
+	width: 300px;
+	height: 300px;
+	background-color:#D8D8D8;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+#titulo_prensa {
+	width: 100px;
+	height: 50px;
+	clear: both;
+	margin-left: 20px;
+	margin-left: 50px;
+}
+
+#texto_prensa {
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin-left: 20px;
+}
+
+#imagen_prensa {
+	width: 250px;
+	height: 120px;
+	background-image: url(imagenesweb/prensa.jpg);
+	background-size: cover;
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+#sumate {
+	width: 300px;
+	height: 300px;
+	background-color:#D8D8D8;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#titulo_sumate {
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-left: 100px;
+}
+
+#texto_sumate {
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin-left: 20px;
+}
+
+#imagen_sumate {
+	width: 250px;
+	height: 120px;
+	background-image: url(imagenesweb/sumate.jpg);
+	background-size: cover;
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+#testimonios {
+	width: 960px;
+	height: 400px;
+	background-color: #FE2E2E;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+#titulo_testimonios {
+	width: 300px;
+	height: 40px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+	
+}
+#testigo1 {
+	width: 260px;
+	height: 280px;
+	background-color: #D8D8D8;
+	clear: both;
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+#nombre_testigo1 {
+	width: 180px;
+	height: 50px;
+	float: left;
+	margin-left: 10px;
+}
+
+#imagen_testigo1 {
+	width: 50px;
+	height: 60px;
+	background-image: url(imagenesweb/testimoniosra.png);
+	background-size: cover;
+	float:right;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+#texto_testimonio1 {
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin-left: 10px;
+}
+
+#testigo2 {
+	width: 260px;
+	height: 280px;
+	background-color: #D8D8D8;
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#nombre_testigo2 {
+	width: 180px;
+	height: 50px;
+	float: left;
+	margin-left: 10px;
+}
+
+#imagen_testigo2 {
+	width: 50px;
+	height: 60px;
+	background-image: url(imagenesweb/testimoniosra.png);
+	background-size: cover;
+	float:right;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+#texto_testimonio2 {
+	width: 250px;
+	height: 180px;
+	float: left;
+	margin-left: 10px;
+}
+
+#testigo3 {
+	width: 260px;
+	height: 280px;
+	background-color: #D8D8D8;
+	float: right;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+
+#nombre_testigo3 {
+	width: 180px;
+	height: 50px;
+	float: left;
+	margin-left: 10px;
+}
+
+#imagen_testigo3 {
+	width: 50px;
+	height: 60px;
+	background-image: url(imagenesweb/testimoniosra.png);
+	background-size: cover;
+	float:right;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+#texto_testimonio3 {
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin-left: 10px;
+}
+
+#pie {
+	width: 960px;
+	height: 180px;
+	background-color: #BDBDBD;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+#datos {
+	width: 300px;
+	height: 150px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+#datos_coach {
+	width: 250px;
+	height: 30px;
+	}
+
+#mail1 {
+	width: 250px;
+	height: 30px;
+	}
+
+#mail {
+	width: 250px;
+	height: 30px;
+
+
+}
+
+#logonataliav {
+	width: 260px;
+	height: 120px;
+	background-image: url(imagenesweb/NBCoach.png);
+	background-size: cover;
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#coaching {
+	width: 960px;
+	height: 500px;
+	background-color:#FE2E2E;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+#foto_coach {
+	width: 330px;
+	height: 500px;
+	background-image: url(imagenesweb/coach.png);
+	background-size: cover;
+	float: left;
+
+}
+
+#zona_coach {
+
+	width: 600px;
+	height:500px;
+	float: right;
+	margin-right: 20px;
+
+}
+
+#titulo_coach1 {
+
+	width: 550px;
+	height:50px;
+	float: right;
+	margin-right: 10px;
+
+}
+
+#texto_coach1 {
+	width: 550px;
+	height:200px;
+	float: right;
+	margin-right: 10px;
+
+}
+
+#titulo_coach2 {
+
+	width: 550px;
+	height:50px;
+	float: right;
+	margin-right: 10px;
+
+}
+
+#texto_coach2 {
+	width: 550px;
+	height:200px;
+	float: right;
+	margin-right: 10px;
+
+}
+
+#coaching1 {
+	width: 960px;
+	height: 600px;
+	background-color:#D8D8D8;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+#zona_coach2 {
+	width: 310px;
+	height:570px;
+	background-color: #FACC2E;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#titulo_coach3 {
+
+	width: 300px;
+	height:50px;
+	float: left;
+	margin-left: 10px;
+
+}
+
+#texto_coach3 {
+	width: 300px;
+	height:200px;
+	float: left;
+	margin-left:  10px;
+}
+
+#zona_coach3 {
+	width: 560px;
+	height:300px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	
+}
+#titulo_coach4 {
+
+	width: 550px;
+	height:40px;
+	float: right;
+	margin-right: 10px;
+
+}
+
+#texto_coach4 {
+	width: 550px;
+	height:200px;
+	float: right;
+	margin-right: 10px;
+}
+
+#zona_coach4 {
+	width: 580px;
+	height: 260px;
+	background-color: #2E2EFE;
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+#titulo_coach5 {
+	width: 570px;
+	height: 40px;
+	float: left;
+	margin-left: 10px;
+
+}
+#texto_coach5 {
+	width: 570px;
+	height: 200px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#natalia_b {
+	width: 960px;
+	height: 440px;
+	background-color: #FF0040;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+#fotonat2 {
+	width: 360px;
+	height: 440px;
+	background-image: url(imagenesweb/gafas.JPG);
+	background-size: cover;
+	float: left;
+	margin-left: 20px;
+}
+
+#expo_natalia {
+	width: 500px;
+	height: 430px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#titulo_expo {
+	width: 480px;
+	height:30px;
+	float: left;
+	margin-left: 10px
+}
+
+#texto_expo {
+	width: 500px;
+	height: 190px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#titulo_expo2 {
+	width: 450px;
+	height:40px;
+	float: left;
+	margin-left: 10px
+	margin-top: 20px;
+}
+
+#texto_expo2 {
+	width: 480px;
+	height: 120px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#plus {
+	width: 960px;
+	height: 400px;
+	background-color: #D8D8D8;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+#imagen_plus {
+	width: 300px;
+	height: 400px;
+	background-image: url(imagenesweb/evento.jpg);
+	background-size: cover;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 10px;
+
+}
+
+#agenda_link {
+	width: 300px;
+	height: 360px;
+	float: left;
+	margin-left: 30px;
+	
+}
+
+#titulo_agenda {
+	width: 200px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+}
+
+#texto_agenda {
+	width: 280px;
+	height: 300px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	
+}
+
+#prensa_nat {
+	width: 280px;
+	height: 180px;
+	float: left;
+	margin-left: 20px;
+	
+}
+
+#titulo_prensa {
+	width: 200px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+
+}
+
+#texto_prensa {
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#descargas {
+	width:300px;
+	height:150px;
+	clear: both;
+	float: left;
+	margin-left: 10px;
+	
+}
+#descargas ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#descargas ul li {
+	display: inline;
+}
+
+#descargas ul li a{
+	display: inline-block;
+	padding: 20px 10px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
